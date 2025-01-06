@@ -7,21 +7,22 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .game-container {
   text-align: center;
-  background-color: white;
+  padding-top: 11px;
+  /* background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 100%;
-  max-width: 400px;
+  max-width: 400px; */
 }
 
 h1 {
@@ -42,6 +43,7 @@ h1 {
 }
 
 .hangman-image img {
+  width: 21rem;
   max-width: 100%;
   height: auto;
   margin-top: 20px;
@@ -126,5 +128,8 @@ button:hover {
   }
   #letterInput {
     width: 40px;
+  }
+  .hangman-image img {
+    width: 11rem;
   }
 }
